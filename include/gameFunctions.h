@@ -22,7 +22,7 @@ void printWithSpaces(int lenght_1 , char *string_1)
     int i;
     for(i=0;string_1[i]!=\0;i++)
     {
-        printf("%c",string_1[i]);
+        printf("%c ",string_1[i]);
     }
 
     printf("\n");
