@@ -4,7 +4,12 @@
 
 #include "gameFunctions.h"
 
-initializeBlankString() {}
+initializeBlankString() 
+
+{
+  
+
+}
 
 printWithSpaces() {}
 
@@ -112,4 +117,9 @@ void clearScreen() {
   printf("\033[2J");
   printf("\033[0;0f");
   printf("\n"); // print a new line for the sake of those on different systems
+}
+
+int main()
+{
+
 }
